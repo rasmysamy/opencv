@@ -1,0 +1,164 @@
+Jan 09, 2019 7:45:01 PM core.centralModule createLog
+INFO: Log created successfully
+Jan 09, 2019 7:45:02 PM core.centralModule <init>
+INFO: Camera is on port 0
+Jan 09, 2019 7:45:02 PM core.centralModule <init>
+INFO: Camera OK!
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: Loaded prefs MinH = 80 MinS = 100 MinV = 100 MaxH = 90 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: Initilisation complete
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: ---------------------------
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:04 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:05 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:06 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:06 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:06 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:06 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:07 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:07 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:07 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:07 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:08 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:08 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:08 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:09 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:09 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:09 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255
+Jan 09, 2019 7:45:09 PM core.mainVision main
+INFO: MinH = 90 MinS = 255 MinV = 255 MaxH = 180 MaxS = 255 MaxV = 255

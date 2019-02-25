@@ -10,14 +10,14 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/opencv/build/java/opencv-340.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/opencv-3.4.5/binwffmpeg/bin/opencv-345.jar!/" />
         </CLASSES>
         <JAVADOC />
         <NATIVE>
-          <root url="file://$USER_HOME$/Downloads/opencv/build/java/x64" />
+          <root url="file://$USER_HOME$/Downloads/opencv-3.4.5/binwffmpeg/lib" />
         </NATIVE>
         <SOURCES>
-          <root url="jar://$USER_HOME$/Downloads/opencv/build/java/opencv-340.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/opencv-3.4.5/binwffmpeg/bin/opencv-345.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>

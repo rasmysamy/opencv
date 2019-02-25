@@ -12,7 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
-import jdk.internal.dynalink.linker.LinkerServices;
+//import jdk.internal.dynalink.linker.LinkerServices;
 import org.opencv.core.*;
 import org.opencv.imgcodecs.*;
 import org.opencv.imgproc.*;
@@ -111,29 +111,35 @@ public class centralModule {
 
 		//OpenCV initialisation
 
-		cameraPort = 0;
-		for(int device = 0; device<10; device++)
-		{
-			VideoCapture tempCam = new VideoCapture();
-			tempCam.open(device);
-			if (tempCam.isOpened()){
-				m_log.info("Camera is on port "+device);
-				cameraPort = device;
-				break;
-			}
-			m_log.info("Camera not on port "+device);
-		}
+//		cameraPort = 0;
+//		for(int device = 0; device<10; device++)
+//		{
+//			VideoCapture tempCam = new VideoCapture();
+//			tempCam.open(device);
+//			if (tempCam.isOpened()){
+//				m_log.info("Camera is on port "+device);
+//				cameraPort = device;
+//				break;
+//			}
+//			m_log.info("Camera not on port "+device);
+//		}
 
-		m_camera = new VideoCapture(cameraPort);
-		//m_camera.set(Videoio.CAP_PROP_EXPOSURE, m_contraste);
+		m_camera = new VideoCapture("tcp://10.35.50.63:2222", Videoio.CV_CAP_FFMPEG);
+		m_camera.set(Videoio.CAP_PROP_BUFFERSIZE, 2);
 		//m_camera.open(cameraPort);
 		if(!m_camera.isOpened()){
 			m_log.severe("Camera Error");
+			for(int i=0; i != 10; i++)
+				m_camera.read(m_srcImage);
 		}
 		else{
 			m_log.info("Camera OK!");
 		}
+		while(!m_camera.isOpened()) {
+			m_log.info("retrying");
+			m_camera.open("rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov");
 
+		}
 
 
 		String OS = System.getProperty("os.name").toLowerCase();
@@ -142,14 +148,17 @@ public class centralModule {
 
 
 		//m_camera.set(Videoio.CAP_PROP_FRAME_COUNT, 30);
-		m_camera.set(Videoio.CV_CAP_PROP_FRAME_WIDTH, 640);
-		m_camera.set(Videoio.CV_CAP_PROP_FRAME_HEIGHT, 480);
+		//m_camera.set(Videoio.CV_CAP_PROP_FRAME_WIDTH, 640);
+		//m_camera.set(Videoio.CV_CAP_PROP_FRAME_HEIGHT, 480);
 
 		m_srcImage = new Mat();
 		m_camera.read(m_srcImage);
+		while(m_srcImage.cols()==0){
+			m_camera.read(m_srcImage);
+		}
 
 
-		m_originalImage = Imgcodecs.imread("C:\\Users\\Samy Rasmy\\Documents\\2019-Targets\\10-2.png");
+		m_originalImage = m_srcImage.clone();
 		m_hsvImage = Mat.zeros(m_srcImage.size(), 0);
 
 		m_hsvOverlay = new Mat(3,3,0);

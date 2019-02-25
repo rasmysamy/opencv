@@ -45,7 +45,7 @@ public class mainVision {
 		
 		secondaryWindow altWindow = new secondaryWindow();
 		Mat image = new Mat();
-		image = Imgcodecs.imread("C:\\Users\\Samy Rasmy\\Documents\\2019-Targets\\0.png");
+		image = cmodule.getSrcImage();
 //		cmodule.m_camera.read(image);
 //		if(image.height() == 0){
 //			System.out.println("Image load fail");

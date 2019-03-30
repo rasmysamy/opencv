@@ -2,6 +2,7 @@ package core;
 
 import java.io.IOException;
 import java.io.File;
+import networking.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -42,19 +43,21 @@ public class centralModule {
 	//setup constants
 	public static final String ANGLE_SEARCHED = "0";
 
+	ntClient tables;
+
 	public static final int DEBUG_TARGET = 0;
 	public static final int TARGET_CROCHET = 1;
 	public static final int HIGH_GOAL = 2;
 	public static final int GEAR_TERRE = 3;
 	public static final int BALLE_TERRE = 4;
 	
-	public static final float CENTRE_IMAGE_X = 640;
-	public static final float CENTRE_IMAGE_Y = 360;
-	public static final double IMAGE_WIDTH = 1280.0;
-	public static final double IMAGE_HEIGHT = 720.0;
-	public static final double FOV_WIDTH = 376.0;
+	public static final float CENTRE_IMAGE_X = 320;
+	public static final float CENTRE_IMAGE_Y = 240;
+	public static final double IMAGE_WIDTH = 640;
+	public static final double IMAGE_HEIGHT = 480;
+	public static final double FOV_WIDTH = 140;
 	public static final double CONV_PIXEL2CM = FOV_WIDTH / IMAGE_WIDTH;
-	public static final double FOV_LENGHT = 298;
+	public static final double FOV_LENGHT = 252;
 	// setup member variables
 	public double m_degree;
 	public int m_targetMode;
@@ -123,10 +126,10 @@ public class centralModule {
 //			}
 //			m_log.info("Camera not on port "+device);
 //		}
+		tables = new ntClient();
 
-		m_camera = new VideoCapture("tcp://10.35.50.63:2222", Videoio.CV_CAP_FFMPEG);
+		m_camera = new VideoCapture("tcp://10.35.50.213:5801", Videoio.CV_CAP_FFMPEG);
 		m_camera.set(Videoio.CAP_PROP_BUFFERSIZE, 2);
-		//m_camera.open(cameraPort);
 		if(!m_camera.isOpened()){
 			m_log.severe("Camera Error");
 			for(int i=0; i != 10; i++)
@@ -140,11 +143,6 @@ public class centralModule {
 			m_camera.open("rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov");
 
 		}
-
-
-		String OS = System.getProperty("os.name").toLowerCase();
-		if (OS.indexOf("win") >= 0)
-			m_camera.open(-1);
 
 
 		//m_camera.set(Videoio.CAP_PROP_FRAME_COUNT, 30);
@@ -437,7 +435,7 @@ public class centralModule {
 				MatOfPoint2f points = new MatOfPoint2f(contours.get(i).toArray());
 				RotatedRect rRect = Imgproc.minAreaRect(points);
 				MatOfPoint2f approx = new MatOfPoint2f();
-				double epsilon = 0.01*Imgproc.arcLength(new MatOfPoint2f(contours.get(i).toArray()),true);
+				double epsilon = 0.012*Math.pow(Imgproc.arcLength(new MatOfPoint2f(contours.get(i).toArray()),true), 1.3);
 				Imgproc.approxPolyDP(new MatOfPoint2f(contours.get(i).toArray()),approx,epsilon,true);
 				double convexArea = Imgproc.contourArea(approx);
 				double ratio = rRect.size.area() / convexArea;
@@ -499,6 +497,7 @@ public class centralModule {
 				continue;
 			}
 		}
+
 		double highestDistance = 0;
 		int chosenIndex = 0;
 		for(int i = 0; i<ListOfPairs.size(); i++){
@@ -513,6 +512,8 @@ public class centralModule {
 			if(distance > highestDistance) {
 				chosenIndex = i;
 				m_degree = degree;
+				tables.setAngle(degree, 0);
+				System.out.println(degree);
 			}
 			MatOfPoint combinedPoints = new MatOfPoint();
 			ArrayList<Mat> concatList = new ArrayList<>();

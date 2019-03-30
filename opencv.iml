@@ -10,14 +10,26 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/opencv-3.4.5/binwffmpeg/bin/opencv-345.jar!/" />
+          <root url="jar://C:/lib/ntcore-java-4.0.0.jar!/" />
+          <root url="jar://C:/lib/ntcore-jni-4.0.0-all.jar!/" />
+          <root url="jar://C:/lib/wpiutil-java-3.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/opencv/build/java/opencv-345.jar!/" />
         </CLASSES>
         <JAVADOC />
         <NATIVE>
-          <root url="file://$USER_HOME$/Downloads/opencv-3.4.5/binwffmpeg/lib" />
+          <root url="file://C:/opencv/build/bin" />
+          <root url="file://C:/opencv/build/java/x64" />
         </NATIVE>
         <SOURCES>
-          <root url="jar://$USER_HOME$/Downloads/opencv-3.4.5/binwffmpeg/bin/opencv-345.jar!/" />
+          <root url="jar://C:/opencv/build/java/opencv-345.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>

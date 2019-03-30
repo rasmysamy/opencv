@@ -13,6 +13,7 @@ public class mainVision {
 		System.out.println(System.getProperty("java.library.path"));
 
 		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+		System.loadLibrary("opencv_ffmpeg345_64");
 		
 		preferencesAPI prefs = new preferencesAPI();
 		
